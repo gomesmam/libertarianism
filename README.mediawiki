@@ -18,7 +18,14 @@ Libertarianism is the view that each person has the right to live his life in an
 
 This repository has a collection of books about libertarianism.
 
-It started with a collection with books create by [https://twitter.com/OMAGOLIBERTARIO]
+It started with a collection with books created by [https://twitter.com/OMAGOLIBERTARIO OMAGOLIBERTARIO]. All his books were in PT-BR (portuguese-brazilian) at [https://drive.google.com/drive/folders/1tqODo7GH7Nb8HJ7YCr0FgpAfiPA31bAq Google Drive].
+
+My initial goals were :
+* Create a backup of his work.
+* Decentralize the way the files could get downloaded.
+* Find the same books in English.
+* Manage the collection using git and git-annex.
+* Report how I had done it.
 
 
 ==Books repositories==
