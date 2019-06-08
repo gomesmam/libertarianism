@@ -1,0 +1,20 @@
+==What Is Libertarian?==
+
+
+The libertarian or “classical liberal” perspective is that peace, prosperity, and social harmony are fostered by “as much liberty as possible” and “as little government as necessary.”
+
+With a long intellectual tradition spanning hundreds of years, libertarian ideas of individual rights, economic liberty, and limited government have contributed to history-changing movements like abolition, women’s suffrage, and the civil rights movement.
+
+Libertarian is not a single viewpoint, but includes a wide variety of perspectives. Libertarians can range from market anarchists to advocates of a limited welfare state, but they are all united by a belief in personal liberty, economic freedom, and a skepticism of government power.
+
+According to Libertarianism: A Primer by David Boaz, Free Press, 1997:
+
+<blockquote>
+Libertarianism is the view that each person has the right to live his life in any way he chooses so long as he respects the equal rights of others. Libertarians defend each person’s right to life, liberty, and property-rights that people have naturally, before governments are created. In the libertarian view, all human relationships should be voluntary; the only actions that should be forbidden by law are those that involve the initiation of force against those who have not themselves used force-actions like murder, rape, robbery, kidnapping, and fraud.
+</blockquote>
+
+
+==And what is this repository all about==
+
+This repository has a collection of books about libertarianism.
+It started with a collection with books create by 
