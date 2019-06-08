@@ -28,7 +28,13 @@ My initial goals were :
 * Report how I had done it.
 
 
+==Backup [https://twitter.com/OMAGOLIBERTARIO OMAGOLIBERTARIO] collection==
+
+I went to [https://drive.google.com/drive/folders/1tqODo7GH7Nb8HJ7YCr0FgpAfiPA31bAq Google Drive] and downloaded all the collection in a zip file.
+
+
 ==Books repositories==
 
+===PCloud===
 
 ==Books repositories management==
