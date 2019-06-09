@@ -22,7 +22,7 @@ It started with a collection with books created by [https://twitter.com/OMAGOLIB
 
 My initial goals were :
 * Create a backup of his work.
-* Decentralize the way the files could get downloaded.
+* Decentralize the way the files can be downloaded.
 * Find the same books in English.
 * Manage the collection using git and git-annex.
 * Report how I had done it.
