@@ -39,4 +39,14 @@ I went to [https://drive.google.com/drive/folders/1tqODo7GH7Nb8HJ7YCr0FgpAfiPA31
 
 The repository on [https://my.pcloud.com/publink/show?code=kZFHFN7ZWykacWlnoJSULTMvMAurBQdYbvry PCloud] is updated using [https://rclone.org/ rclone].
 
+The command for this is
+
+<pre>
+$ rclone -v copy ~/local_repository_folder/ CLOUD_NAME:/remote_repository_folder/
+</pre>
+
+Of course you need that rclone is already configured to use the cloud you want to use. This is done with <pre>rclone config</pre>
+
+===Torrents===
+
 ==Books repositories management==
