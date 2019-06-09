@@ -107,7 +107,7 @@ This video shows the advantages of using torrents to share files and content.
 
 In the video the torrent client that they recommend is utorrent, by I rather use qbittorrent. It has no adware on it.
 
-'''But there is a downside on getting the Libertanian library like this: virus.'''
+'''But there is a downside on getting the Libertanian library like this, computer virus.'''
 
 The person that creates the ".torrent" file can put some virus inside the folder he used to create the torrent.
 
