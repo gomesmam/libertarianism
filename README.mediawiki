@@ -99,9 +99,7 @@ But if you want to scan the QR-code that you generated in a computer and if you 
 
 [https://online-barcode-reader.inliteresearch.com/]
 
-Torrents files always depends in the number of seeds. But is a good solution to make a decentralized way to distribute files. 
-
-In this way you don't need a high speed and capacity server to host files.
+Torrents files always depends in the number of seeds. But is a good solution to make a decentralized way to distribute files. In this way you don't need a high speed and capacity server to host files.
 
 This video shows the advantages of using torrents to share files and content.
 
