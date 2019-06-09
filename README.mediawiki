@@ -51,7 +51,7 @@ Of course you need that rclone is already configured to use the cloud you want t
 
 To create and seed the torrent I used [https://www.qbittorrent.org/ qbittorrent]
 
-And the process is very strait forward.
+And the process is very straight forward.
 
 <img src=https://i.imgur.com/Kjgua5K.png></img>
 
@@ -79,7 +79,7 @@ As alternative to give this file I can create a magnet link that is just a strin
 
 <img src=https://i.imgur.com/qEkiaJp.png></img>
 
-This is how the string of text of the magnet link looks like
+This is how the string of text of a magnet link looks like
 
 <pre>
 magnet:?xt=urn:btih:85922fbee6dce5e2f5491e16bcdd9e6e427ba5aa&dn=slackware64-14.2-iso&tr=http%3a%2f%2ftracker2.transamrit.net%3a8082%2fannounce&tr=http%3a%2f%2ftracker1.transamrit.net%3a8082%2fannounce&tr=http%3a%2f%2ftracker3.transamrit.net%3a8082%2fannounce
@@ -93,7 +93,7 @@ And using a site as [https://www.the-qrcode-generator.com/], you can generate a 
 
 And you can post it anywhere. Like in twitter, instagram, facebook and etc...
 
-Most of smartphones have QR-code scanner apps and also QR-code generators and scanner apps.
+Most of smartphones have QR-code scanner apps available to download. And also QR-code generators and scanner apps.
 
 But if you want to scan the QR-code that you generated, if you saved it as picture, you can use this site
 
