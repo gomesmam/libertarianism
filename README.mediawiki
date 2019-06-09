@@ -128,10 +128,8 @@ And if the private key of the trusted person is not compromised, the output of t
 
 This is fine since if you can host the generated signature, the "libertarianism.torrent.gpg". And the "libertarianism.torrent" in some place.
 
-But if you are using QR-codes this is not very usefull.
+But if you are using QR-codes this is not very useful. Since your QR-code is created form the magnet link and not from the torrent itself. 
 
-(... continues...)
-
-
+So if someone gives you a QR-code from a magnet link, you need to trust in that person.
 
 ==Books repositories management==
