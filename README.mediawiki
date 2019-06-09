@@ -45,7 +45,7 @@ The command for this is
 $ rclone -v copy ~/local_repository_folder/ CLOUD_NAME:/remote_repository_folder/
 </pre>
 
-Of course you need that rclone is already configured to use the cloud you want to use. This is done with <pre>rclone config</pre>
+Of course you need that rclone is already configured to use the cloud you want to use. This is done with <code>$ rclone config</code>
 
 ===Torrents===
 
