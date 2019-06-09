@@ -124,7 +124,7 @@ $ gpg --sign libertarianism.torrent
 </pre>
 
 This will generate a file that is unique and ends with "gpg" extension. This file is in fact an output of a function that has as inputs: the file (in this case libertarianism.torrent) and the PGP private key of the trusted person.
-And if the private key of the trusted person is not compromised, the output of those two inputs is very strong authentication proof that that person really signed that file. 
+And if the private key of the trusted person is not compromised, the output of those two inputs is a very strong authentication proof that that person really signed that file. 
 
 This is fine since you can host the generated signature, the "libertarianism.torrent.gpg". And the "libertarianism.torrent" in some place.
 
