@@ -111,19 +111,22 @@ In the video the torrent client that they recommend is utorrent, by I rather use
 
 The person that creates the ".torrent" file can put some virus inside the folder he used to create the torrent.
 
-The way to get around this is get this ".torrent" file from someone you trust. And this person can even sign a certificate saying that he is the one that created the file.
+The way to get around this is get the ".torrent" file from someone you trust. And this person can even sign a certificate saying that he is the one that created the file.
 
 I made a tutorial how to get [https://github.com/InserirAquiNome/crypto/blob/master/004_PGP_on_windows.md PGP] working on windows. PGP stands for Pretty Good Privacy.
 
-Most Linux distros and MacOS already have PGP or were very easy to get.
+Most Linux distros and MacOS already have PGP or is very easy to get it.
 
-The person that created the ".torrent" file that is person that you will trust just need to sign the ".torrent" file, like this:
+The person that created the ".torrent" file is the person that you will trust. This person needs to created a new file saying that he was the one that created the ".torrent" file, like this:
 
 <pre>
 $ gpg --sign libertarianism.torrent
 </pre>
 
-This is fine since you can host the generated signature, the "libertarianism.torrent.gpg" and the "libertarianism.torrent" in some place.
+This will generate a unique output in a gpg file that has as inputs the file (in this case libertarianism.torrent) and the PGP private key of the trusted person.
+And if the private key of the trusted person is not compromised, the output of those two inputs is very strong authentication proof that that person really signed that file. 
+
+This is fine since you can host the generated signature, the "libertarianism.torrent.gpg". And the "libertarianism.torrent" in some place.
 
 But if you are using QR-codes this is not very usefull.
 
