@@ -95,8 +95,16 @@ And you can post it anywhere. Like in twitter, instagram, facebook and etc...
 
 Most of smartphones have QR-code scanner apps available to download. And also QR-code generators and scanner apps.
 
-But if you want to scan the QR-code that you generated, if you saved it as picture, you can use this site
+But if you want to scan the QR-code that you generated in a computer and if you saved it as picture, you can use this site
 
 [https://online-barcode-reader.inliteresearch.com/]
+
+Torrents files always depends in the number of seeds. But is a good solution to make a decentralized way to distribute files. 
+
+In this way you don't need a high speed and capacity server to host files.
+
+This video shows the advantages of using torrents to share files and content.
+
+<a href="https://www.youtube.com/watch?v=6PWUCFmOQwQ"><img src=https://i.imgur.com/aPrkO53.jpg></img></a>
 
 ==Books repositories management==
