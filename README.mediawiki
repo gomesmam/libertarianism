@@ -49,15 +49,54 @@ Of course you need that rclone is already configured to use the cloud you want t
 
 ===Torrents===
 
+To create and seed the torrent I used [https://www.qbittorrent.org/ qbittorrent]
+
+And the process is very strait forward.
+
 <img src=https://i.imgur.com/Kjgua5K.png></img>
 
-https://i.imgur.com/UQ8As9j.png
+I choose the my local folder where all the books are.
 
-https://github.com/ngosang/trackerslist
+<img src=https://i.imgur.com/UQ8As9j.png></img>
 
-https://i.imgur.com/EgTIBuA.png
+Then I need some trackers to broadcast my torrent. I get a few of them in this site.
 
-https://i.imgur.com/6wjjfz5.png
+[https://github.com/ngosang/trackerslist]
 
+I choose the ones listed as best.
+
+Pasted them on qbittorrent
+
+<img src=https://i.imgur.com/EgTIBuA.png></img>
+
+And created the ".torrent" file
+
+<img src=https://i.imgur.com/6wjjfz5.png></img>
+
+After this I only need to leave qbittorrent running to seed the torrent that I created and give the ".torrent" file to other people.
+
+As alternative to give this file I can create a magnet link that is just a string of text.
+
+<img src=https://i.imgur.com/qEkiaJp.png></img>
+
+This is how the string of text of the magnet link looks like
+
+<pre>
+magnet:?xt=urn:btih:85922fbee6dce5e2f5491e16bcdd9e6e427ba5aa&dn=slackware64-14.2-iso&tr=http%3a%2f%2ftracker2.transamrit.net%3a8082%2fannounce&tr=http%3a%2f%2ftracker1.transamrit.net%3a8082%2fannounce&tr=http%3a%2f%2ftracker3.transamrit.net%3a8082%2fannounce
+</pre>
+
+'''This not the magnet link of the repository!!! Is just an example.'''
+
+And using a site as [https://www.the-qrcode-generator.com/], you can generate a QR-code of that text.
+
+<img src=https://i.imgur.com/4GXTPR7.png></img>
+
+And you can post it anywhere. Like in twitter, instagram, facebook and etc...
+
+Most of smartphones have QR-code scanner apps and also QR-code generators and scanner apps.
+
+But if you want to scan the QR-code that you generated, if you saved it as picture, you can use this site
+
+[https://online-barcode-reader.inliteresearch.com/]
 
 ==Books repositories management==
