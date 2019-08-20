@@ -1,0 +1,133 @@
+==What Is Libertarian?==
+
+
+The libertarian or “classical liberal” perspective is that peace, prosperity, and social harmony are fostered by “as much liberty as possible” and “as little government as necessary.”
+
+With a long intellectual tradition spanning hundreds of years, libertarian ideas of individual rights, economic liberty, and limited government have contributed to history-changing movements like abolition, women’s suffrage, and the civil rights movement.
+
+Libertarian is not a single viewpoint, but includes a wide variety of perspectives. Libertarians can range from market anarchists to advocates of a limited welfare state, but they are all united by a belief in personal liberty, economic freedom, and a skepticism of government power.
+
+According to Libertarianism: A Primer by David Boaz, Free Press, 1997:
+
+<blockquote>
+Libertarianism is the view that each person has the right to live his life in any way he chooses so long as he respects the equal rights of others. Libertarians defend each person’s right to life, liberty, and property-rights that people have naturally, before governments are created. In the libertarian view, all human relationships should be voluntary; the only actions that should be forbidden by law are those that involve the initiation of force against those who have not themselves used force-actions like murder, rape, robbery, kidnapping, and fraud.
+</blockquote>
+
+
+==And what is this repository all about==
+
+This repository has a collection of books about libertarianism.
+
+It started with a collection with books created by [https://twitter.com/OMAGOLIBERTARIO OMAGOLIBERTARIO]. All his books were in PT-BR (portuguese-brazilian) at [https://drive.google.com/drive/folders/1tqODo7GH7Nb8HJ7YCr0FgpAfiPA31bAq Google Drive].
+
+My initial goals were :
+* Create a backup of his work.
+* Decentralize the way the files can be downloaded.
+* Find the same books in English.
+* Manage the collection using git and git-annex.
+* Report how I had done it.
+
+
+==Backup OMAGOLIBERTARIO collection==
+
+I went to [https://drive.google.com/drive/folders/1tqODo7GH7Nb8HJ7YCr0FgpAfiPA31bAq Google Drive] and downloaded all the collection in a zip file.
+
+
+==Books repositories==
+
+===PCloud===
+
+The repository on [https://my.pcloud.com/publink/show?code=kZFHFN7ZWykacWlnoJSULTMvMAurBQdYbvry PCloud] is updated using [https://rclone.org/ rclone].
+
+The command for this is
+
+<pre>
+$ rclone -v copy ~/local_repository_folder/ CLOUD_NAME:/remote_repository_folder/
+</pre>
+
+Of course you need that rclone is already configured to use the cloud you want to use. This is done with <code>$ rclone config</code>
+
+===Torrents===
+
+To create and seed the torrent I used [https://www.qbittorrent.org/ qbittorrent]
+
+And the process is very straight forward.
+
+<img src=https://i.imgur.com/Kjgua5K.png></img>
+
+I choose the my local folder where all the books are.
+
+<img src=https://i.imgur.com/UQ8As9j.png></img>
+
+Then I need some trackers to broadcast my torrent. I get a few of them in this site.
+
+[https://github.com/ngosang/trackerslist]
+
+I choose the ones listed as best.
+
+Pasted them on qbittorrent
+
+<img src=https://i.imgur.com/EgTIBuA.png></img>
+
+And created the ".torrent" file
+
+<img src=https://i.imgur.com/6wjjfz5.png></img>
+
+After this I only need to leave qbittorrent running to seed the torrent that I created and give the ".torrent" file to other people.
+
+As alternative to give this file I can create a magnet link that is just a string of text.
+
+<img src=https://i.imgur.com/qEkiaJp.png></img>
+
+This is how the string of text of a magnet link looks like
+
+<pre>
+magnet:?xt=urn:btih:85922fbee6dce5e2f5491e16bcdd9e6e427ba5aa&dn=slackware64-14.2-iso&tr=http%3a%2f%2ftracker2.transamrit.net%3a8082%2fannounce&tr=http%3a%2f%2ftracker1.transamrit.net%3a8082%2fannounce&tr=http%3a%2f%2ftracker3.transamrit.net%3a8082%2fannounce
+</pre>
+
+'''This not the magnet link of the repository!!! Is just an example.'''
+
+And using a site as [https://www.the-qrcode-generator.com/], you can generate a QR-code of that text.
+
+<img src=https://i.imgur.com/4GXTPR7.png></img>
+
+And you can post it anywhere. Like in twitter, instagram, facebook and etc...
+
+Most of smartphones have QR-code scanner apps available to download. And also QR-code generators and scanner apps.
+
+But if you want to scan the QR-code that you generated in a computer and if you saved it as picture, you can use this site
+
+[https://online-barcode-reader.inliteresearch.com/]
+
+Torrents files always depends in the number of seeds. But is a good solution to make a decentralized way to distribute files. In this way you don't need a high speed and capacity server to host files.
+
+This video shows the advantages of using torrents to share files and content.
+
+<a href="https://www.youtube.com/watch?v=6PWUCFmOQwQ"><img src=https://i.imgur.com/aPrkO53.jpg></img></a>
+
+In the video the torrent client that they recommend is utorrent, by I rather use qbittorrent. It has no adware on it.
+
+'''But there is a downside on getting the Libertanian library like this, computer virus.'''
+
+The person that creates the ".torrent" file can put some virus inside the folder he used to create the torrent.
+
+The way to get around this is get the ".torrent" file from someone you trust. And this person can even sign a certificate saying that he is the one that created the file.
+
+I made a tutorial how to get [https://github.com/InserirAquiNome/crypto/blob/master/004_PGP_on_windows.md PGP] working on windows. PGP stands for Pretty Good Privacy.
+
+Most Linux distros and MacOS already have PGP or is very easy to get it.
+
+The person that created the ".torrent" file is the person that you will trust. This person needs to created a new file saying that he was the one that created the ".torrent" file, like this:
+
+<pre>
+$ gpg --sign libertarianism.torrent
+</pre>
+
+This will generate a file that is unique and ends with "gpg" extension. This file is in fact an output of a function that has as inputs: the file (in this case libertarianism.torrent) and the PGP private key of the trusted person.
+And if the private key of the trusted person is not compromised, the output of those two inputs is a very strong authentication proof that that person really signed that file. 
+
+This is fine since if you can host the generated signature, the "libertarianism.torrent.gpg". And the "libertarianism.torrent" in some place.
+
+But if you are using QR-codes this is not very useful. Since your QR-code is created from the magnet link and not from the torrent itself. So if someone gives you a QR-code from a magnet link, you need to trust in that person.
+
+Of course you can create two QR-codes. One for the magnet link and other for the signature in ASCII-armor format. And then post it in some place.   
